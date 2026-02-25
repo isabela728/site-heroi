@@ -2,6 +2,7 @@ body{
     background-color: rgb(9, 3, 34);
     color: white;
     background-image: url(assets/background.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -43,5 +44,14 @@ div{
 a{
     text-decoration: none;
     color: rgb(30, 147, 214);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgb(18, 136, 204);
+}
+
+.titulo{
+    color: rgb(55, 115, 204);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.data{
+    color: rgb(255, 255, 255);
 }
